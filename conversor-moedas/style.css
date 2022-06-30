@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div#numero {
+    text-align: center;
+}
+
+#numero select{
+    padding: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#numero p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#numero2 {
+    margin-top: 35px;
+    margin-left: 45px;
+}
+

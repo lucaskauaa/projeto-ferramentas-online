@@ -23,3 +23,8 @@ function minusc() {
         res.innerHTML = 'Caracteres: 0'
     }
 }
+
+function limpar() {
+    texto.value = " "
+    res.innerHTML = 'Caracteres: 0'
+}

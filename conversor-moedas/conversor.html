@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título | Ferramentas Online</title>
-    <link rel="shortcut icon" href="imagens/tool.ico" type="image/x-icon">
-    <link rel="stylesheet" href="conversor.css">
+    <title>Conversor de Moedas | Ferramentas Online</title>
+    <link rel="shortcut icon" href="../padrao/imagens/tool.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../padrao/padrao.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section id="part1">
@@ -15,12 +16,27 @@
             <hr>
         </header>
         <section id="principal">
-            <h2>Título</h2>
-            <div>
-                  
+            <h2>Conversor de Moedas</h2>
+            <div id="numero">
+                <p id="res">Converter de
+                     <select name="moeda1" id="moeda1">
+                        <option value="Real">REAL (BRL)</option>
+                        <option value="Dolar">DOLAR (USD)</option>
+                        <option value="Euro">EURO (EUR)</option>
+                        <option value="Libra">LIBRA (GPB)</option>
+                    </select> para 
+                    <select name="moeda2" id="moeda2">
+                        <option value="Dolar">DOLAR (USD)</option>
+                        <option value="Real">REAL (BRL)</option>
+                        <option value="Euro">EURO (EUR)</option>
+                        <option value="Libra">LIBRA (GPB)</option>
+                    </select>
+                </p>
+                <input type="text" name="valo1" id="valor1" placeholder="Valor "> =
+                <input type="text" name="valor2" id="valor2" placeholder="Resultado ">
             </div>
-            <div>
-                    
+            <div id="numero2">
+                <input type="button" value="Converter" onclick="converter()">
             </div>
         </section>
         <div id="ref">
@@ -31,7 +47,7 @@
         <h1>Outras Ferramentas</h1>
         <p>
             <ul>
-                <li><a href="file:///C:/Users/Luciano/Documents/kau%C3%A3/programation/ferramentas-online/conversor-maius-minusc/conversor.html" target="_blank" rel="next">Conversor Maiúsculas e Minúsculas</a></li>
+                <li><a href="file:///C:/Users/Luciano/Documents/kau%C3%A3/programation/projeto-ferramentas-online/conversor-maius-minusc/conversor.html" target="_blank" rel="next">Conversor Maiúsculas e Minúsculas</a></li>
                 <li><a href="#">Ferramenta 2</a></li>
                 <li><a href="#">Ferramenta 3</a></li>
                 <li><a href="#">Ferramenta 4</a></li>
